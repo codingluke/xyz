@@ -21,7 +21,7 @@ http://getkirby.com/license
 
 */
 
-c::set('license', 'your license key');
+c::set('license', '');
 
 
 /* 
@@ -406,9 +406,9 @@ to set the default locale settings for all PHP functions
 
 */
 
-c::set('lang.support', false);
-c::set('lang.default', 'en');
-c::set('lang.available', array('en', 'de'));
+c::set('lang.support', true);
+c::set('lang.default', 'de');
+c::set('lang.available', array('en', 'de', 'it', 'fr'));
 c::set('lang.detect', true);
 c::set('lang.locale', false);
 

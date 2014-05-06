@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900,700,300);
 /* ==========================================================================
    Normalize.scss settings
    ========================================================================== */
@@ -375,26 +375,6 @@ th {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-body:before {
-  content: '';
-  display: inline-block;
-  background-image: deprecated-webkit-gradient(linear, left top, left bottom, transparent 0, #eeeeee 0, #eeeeee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eeeeee 8.5298%, #eeeeee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eeeeee 17.05961%, #eeeeee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eeeeee 25.58941%, #eeeeee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eeeeee 34.11922%, #eeeeee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eeeeee 42.64902%, #eeeeee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eeeeee 51.17883%, #eeeeee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eeeeee 59.70863%, #eeeeee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eeeeee 68.23843%, #eeeeee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eeeeee 76.76824%, #eeeeee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eeeeee 85.29804%, #eeeeee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eeeeee 93.82785%, #eeeeee 100.0%, transparent 100.0%);
-  background-image: -webkit-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eeeeee 8.5298%, #eeeeee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eeeeee 17.05961%, #eeeeee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eeeeee 25.58941%, #eeeeee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eeeeee 34.11922%, #eeeeee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eeeeee 42.64902%, #eeeeee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eeeeee 51.17883%, #eeeeee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eeeeee 59.70863%, #eeeeee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eeeeee 68.23843%, #eeeeee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eeeeee 76.76824%, #eeeeee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eeeeee 85.29804%, #eeeeee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eeeeee 93.82785%, #eeeeee 100.0%, transparent 100.0%);
-  background-image: -moz-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eeeeee 8.5298%, #eeeeee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eeeeee 17.05961%, #eeeeee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eeeeee 25.58941%, #eeeeee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eeeeee 34.11922%, #eeeeee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eeeeee 42.64902%, #eeeeee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eeeeee 51.17883%, #eeeeee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eeeeee 59.70863%, #eeeeee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eeeeee 68.23843%, #eeeeee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eeeeee 76.76824%, #eeeeee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eeeeee 85.29804%, #eeeeee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eeeeee 93.82785%, #eeeeee 100.0%, transparent 100.0%);
-  background-image: -ms-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eeeeee 8.5298%, #eeeeee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eeeeee 17.05961%, #eeeeee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eeeeee 25.58941%, #eeeeee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eeeeee 34.11922%, #eeeeee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eeeeee 42.64902%, #eeeeee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eeeeee 51.17883%, #eeeeee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eeeeee 59.70863%, #eeeeee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eeeeee 68.23843%, #eeeeee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eeeeee 76.76824%, #eeeeee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eeeeee 85.29804%, #eeeeee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eeeeee 93.82785%, #eeeeee 100.0%, transparent 100.0%);
-  background-image: -o-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eeeeee 8.5298%, #eeeeee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eeeeee 17.05961%, #eeeeee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eeeeee 25.58941%, #eeeeee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eeeeee 34.11922%, #eeeeee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eeeeee 42.64902%, #eeeeee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eeeeee 51.17883%, #eeeeee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eeeeee 59.70863%, #eeeeee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eeeeee 68.23843%, #eeeeee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eeeeee 76.76824%, #eeeeee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eeeeee 85.29804%, #eeeeee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eeeeee 93.82785%, #eeeeee 100.0%, transparent 100.0%);
-  background-image: linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eeeeee 8.5298%, #eeeeee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eeeeee 17.05961%, #eeeeee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eeeeee 25.58941%, #eeeeee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eeeeee 34.11922%, #eeeeee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eeeeee 42.64902%, #eeeeee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eeeeee 51.17883%, #eeeeee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eeeeee 59.70863%, #eeeeee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eeeeee 68.23843%, #eeeeee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eeeeee 76.76824%, #eeeeee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eeeeee 85.29804%, #eeeeee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eeeeee 93.82785%, #eeeeee 100.0%, transparent 100.0%);
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 68em;
-  opacity: 0.4;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  pointer-events: none;
-  z-index: -1; }
-
 a:link {
   color: #000000;
   text-decoration: none; }
@@ -468,13 +448,11 @@ h3 {
       .nav__top .list__horizontal--menu li {
         display: block;
         font-size: 110%;
-        line-height: 1.5em; } }
+        line-height: 1.5em; }
+      .nav__top .list__horizontal--menu a.active {
+        color: #231f20;
+        background-color: white; } }
 
-/*.show-nav .nav__top {*/
-/*@include media($mobile) {*/
-/*@include shift(0);*/
-/*}*/
-/*}*/
 .top__nav__button {
   /*position: fixed;*/
   /*top: 0;*/
@@ -531,7 +509,7 @@ h3 {
     margin-left: 51.17883%; } }
 
 .imgWrap {
-  margin-bottom: 1em;
+  /*margin-bottom: 1em;*/
   text-align: right; }
   .imgWrap img {
     width: 100%;
@@ -608,7 +586,10 @@ h3 {
 
 .list__horizontal--menu li {
   padding-right: 1em;
-  font-weight: bold; }
+  font-weight: 400; }
+.list__horizontal--menu a.active {
+  color: white;
+  background-color: #231f20; }
 
 .list__horizontal--languages li {
   padding-right: 1em;
@@ -621,6 +602,10 @@ h3 {
   margin-bottom: 1em;
   display: inline-block;
   width: 100%; }
+
+.members__row strong {
+  font-weight: 900;
+  font-size: 125%; }
 
 .members__row img {
   float: right;
@@ -643,6 +628,9 @@ h3 {
   .members__row .column-right:last-child {
     margin-right: 0; }
 
+.logo {
+  text-align: right; }
+
 .news__row {
   margin-bottom: 1em;
   display: inline-block; }
@@ -651,7 +639,9 @@ h3 {
   margin-bottom: 1em; }
   .news__row .column-left .meta {
     display: inline;
-    margin-right: 1em; }
+    margin-right: 1em;
+    font-weight: 700;
+    /*text-transform: uppercase;*/ }
   @media screen and (min-width: 850px) {
     .news__row .column-left {
       float: left;
@@ -684,40 +674,40 @@ h3 {
     margin-bottom: 1em;
     margin-top: 1em; } }
 
-@media screen and (max-width: 850px) {
-  .program__row a {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%; }
-    .program__row a:last-child {
-      margin-right: 0; }
-    .program__row a:nth-child(2n) {
-      margin-right: 0; }
-    .program__row a:nth-child(2n+1) {
-      clear: left; } }
-@media screen and (min-width: 850px) {
-  .program__row a {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%; }
-    .program__row a:last-child {
-      margin-right: 0; } }
-@media screen and (max-width: 680px) {
-  .program__row a {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    .program__row a:last-child {
-      margin-right: 0; } }
+.program__row a {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  color: white;
+  line-height: 0.8; }
+  @media screen and (max-width: 850px) {
+    .program__row a {
+      width: 49.93914%;
+      float: left; }
+      .program__row a:nth-child(2n) {
+        margin-right: 0; }
+      .program__row a:nth-child(2n+1) {
+        clear: left; } }
+  @media screen and (min-width: 850px) {
+    .program__row a {
+      width: 24.98964%;
+      float: left; } }
+  @media screen and (max-width: 680px) {
+    .program__row a {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .program__row a:last-child {
+        margin-right: 0; } }
 
 .program__row .ico-wrap {
   left: 0;
-  bottom: -16px;
-  color: white; }
+  bottom: -40px;
+  color: white;
+  text-align: left; }
   .program__row .ico-wrap h3 {
+    line-height: 1;
     font-size: 200%; }
 
 .litegallery {
@@ -771,8 +761,10 @@ h3 {
   margin-bottom: 1em; }
 
 body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333; }
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  font-weight: 300;
+  font-size: 110%; }
   @media screen and (max-width: 680px) {
     body {
       background-color: #231f20; } }

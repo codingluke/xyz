@@ -1,0 +1,25 @@
+Events:
+
+Monaco:
+  Street: Rue de WTF 17
+  ZIP:    1112
+  City:   Monaco
+  Phone:  555-1234
+  Email:  me@monaco.org
+  Date:   24.11.2011
+
+New York:
+  Street: 1212 Broadway    
+  ZIP:    4321
+  City:   New York  
+  Phone:  666-4321
+  Email:  me@ny.org
+  Date:   29.04.2014
+
+Bahamas: 
+  Street: At the beach
+  ZIP:    9999
+  City:   The capitol of the Bahamas
+  Phone:  777-9999
+  Email:  me@bahamas.org
+  Date:   29.06.2015

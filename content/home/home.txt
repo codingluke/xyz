@@ -2,11 +2,19 @@ Title: Home
 
 ----
 
-Text: 
+Snippet: home
 
-Yay! If you are seeing this, the installation of Kirby worked :)
-Now just give the links in the menu a try to see if URL redirection works as well.
+----
 
-Check out the docs: <http://getkirby.com/docs> if you run into any problems or send me an email: <bastian@getkirby.com>
+Welcome: Willkommen bei ensemble viceversa
 
-Have fun with Kirby!
+----
+Quote: Ein Gegenstand lässt vermuten, dass es andere hinter ihm gibt
+
+----
+
+QuoteBy: (René Magritte)
+
+----
+
+Text: ensemble viceversa in der Maison 44 in Basel am 25. Mai 2014!
