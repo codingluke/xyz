@@ -1,14 +1,21 @@
 <?php $members = yaml($page->members()) ?>
+<?php $root = $pages->findOpen() ?>
+<?php $items = $root->children() ?>
+<?php $index = 1; ?>
 
 <div class="module">
-  <?php foreach($members as $member): ?>
-  <?php if (array_key_exists('Img', $member)) $img = $page->images()->find($member['Img']) ?>
+<p>
+
+  <?php foreach($items as $member): ?>
+  <?php $img = $member->images()->first() ?>
   <section class="members__row">
     <div>
-      <?php if (isset($img)) echo thumb($img, array('width' => 300, 'height' => 300)) ?>
-      <?php echo markdown($member['Description']) ?>
+      <?php echo thumb($img, array('width' => 300, 'height' => 300)) ?>
+      <?php echo markdown($member->description()) ?>
     </div>
   </section>
   <?php unset($img) ?>
   <?php endforeach ?>
+
+<p>
 </div>
