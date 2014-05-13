@@ -596,7 +596,8 @@ h3 {
   border-right: white .5em solid; }
 
 .module {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  display: inline-block; }
 
 .members__row {
   margin-bottom: 1em;
@@ -709,6 +710,40 @@ h3 {
   .program__row .ico-wrap h3 {
     line-height: 1;
     font-size: 200%; }
+
+.programm__detail {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .programm__detail:last-child {
+    margin-right: 0; }
+
+.programm__detail h1 {
+  font-size: 160%;
+  margin: 0;
+  line-height: 0.7; }
+
+.programm__detail .column-left {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%; }
+  .programm__detail .column-left:last-child {
+    margin-right: 0; }
+  .programm__detail .column-left img {
+    width: 100%; }
+
+.programm__detail .column-right {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .programm__detail .column-right:last-child {
+    margin-right: 0; }
+  .programm__detail .column-right p {
+    margin: 0;
+    padding: 0; }
 
 .litegallery {
   /*background-position: center;*/ }

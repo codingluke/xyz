@@ -34,12 +34,7 @@
 
         <?php if ($page->snippet() != '') snippet($page->snippet()) ?>
 
-
-
         <?php if ($page->concerts()) snippet('aktuell') ?>
-
-        <?php //if ($page->members()) snippet('members') ?>
-        <?php //snippet('programm_index') ?>
 
         <?php //snippet('programm_detail') ?>
 
