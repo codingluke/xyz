@@ -515,24 +515,10 @@ h3 {
     width: 100%;
     height: 100%; }
 
-.pageWrap .l-container {
+.footer .container {
+  text-transform: uppercase;
   background-color: #231f20;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 74.41059%; }
-  .pageWrap .l-container:last-child {
-    margin-right: 0; }
-
-.pageWrap .r-container {
-  background-color: #231f20;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 23.23176%;
-  text-align: right; }
-  .pageWrap .r-container:last-child {
-    margin-right: 0; }
+  padding: 0; }
 
 .has-overlay:before {
   content: "";
@@ -577,10 +563,10 @@ h3 {
     .header__image .ico-wrap .logo_small {
       display: none; } }
 
-.list__horizontal, .list__horizontal--menu, .list__horizontal--languages {
+.list__horizontal, .list__horizontal--menu, .list__horizontal--languages, .list__horizontal--social {
   margin: 0;
   padding: 0; }
-  .list__horizontal li, .list__horizontal--menu li, .list__horizontal--languages li {
+  .list__horizontal li, .list__horizontal--menu li, .list__horizontal--languages li, .list__horizontal--social li {
     display: inline;
     display: inline-flex; }
 
@@ -594,10 +580,47 @@ h3 {
 .list__horizontal--languages li {
   padding-right: 1em;
   border-right: white .5em solid; }
+  .list__horizontal--languages li img {
+    width: 100; }
+.list__horizontal--languages .left-bottom {
+  position: relative;
+  left: -1px;
+  bottom: -4px;
+  font-weight: 900;
+  color: white;
+  text-align: left; }
+.list__horizontal--languages .left-top {
+  position: relative;
+  left: -4px;
+  top: -4px;
+  font-weight: 900;
+  color: white;
+  text-align: left; }
+.list__horizontal--languages .right-bottom {
+  position: relative;
+  right: -16px;
+  bottom: -4px;
+  font-weight: 900;
+  color: white;
+  text-align: right; }
+.list__horizontal--languages .right-top {
+  position: relative;
+  right: -17px;
+  top: -4px;
+  font-weight: 900;
+  color: white;
+  text-align: right; }
+
+.list__horizontal--social {
+  float: right; }
+  .list__horizontal--social li {
+    padding-right: 1em;
+    border-right: white .5em solid; }
 
 .module {
   margin-bottom: 1em;
-  display: inline-block; }
+  display: inline-block;
+  width: 100%; }
 
 .members__row {
   margin-bottom: 1em;
@@ -609,15 +632,14 @@ h3 {
   font-size: 125%; }
 
 .members__row img {
-  float: right;
-  margin-left: 1em;
+  width: 100%;
   display: inline; }
 
 .members__row .column-left {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 74.41059%; }
+  width: 65.88078%; }
   .members__row .column-left:last-child {
     margin-right: 0; }
 
@@ -625,7 +647,7 @@ h3 {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 23.23176%; }
+  width: 31.76157%; }
   .members__row .column-right:last-child {
     margin-right: 0; }
 
@@ -684,32 +706,23 @@ h3 {
   @media screen and (max-width: 850px) {
     .program__row a {
       width: 49.93914%;
-      float: left; }
-      .program__row a:nth-child(2n) {
-        margin-right: 0; }
-      .program__row a:nth-child(2n+1) {
-        clear: left; } }
+      float: left; } }
   @media screen and (min-width: 850px) {
     .program__row a {
       width: 24.98964%;
       float: left; } }
-  @media screen and (max-width: 680px) {
-    .program__row a {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%; }
-      .program__row a:last-child {
-        margin-right: 0; } }
 
 .program__row .ico-wrap {
   left: 0;
-  bottom: -40px;
   color: white;
-  text-align: left; }
+  text-align: left;
+  bottom: -35px; }
   .program__row .ico-wrap h3 {
     line-height: 1;
     font-size: 200%; }
+  @media screen and (min-width: 850px) {
+    .program__row .ico-wrap {
+      bottom: -35px; } }
 
 .programm__detail {
   float: left;
@@ -799,7 +812,7 @@ body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
   font-weight: 300;
-  font-size: 110%; }
+  font-size: 100%; }
   @media screen and (max-width: 680px) {
     body {
       background-color: #231f20; } }

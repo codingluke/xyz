@@ -31,10 +31,9 @@
 
         <?php ($page->images()->find('header.png')) ? snippet('logo_on_headerimage') : snippet('logo') ?>
 
-
         <?php if ($page->snippet() != '') snippet($page->snippet()) ?>
 
-        <?php if ($page->concerts()) snippet('aktuell') ?>
+        <?php //if ($page->concerts()) snippet('aktuell') ?>
 
         <?php //snippet('programm_detail') ?>
 
@@ -43,19 +42,22 @@
       </div>
 
       <div class="footer">
-        <div class="l-container">
+        <div class="container">
+          <ul class="list__horizontal--social">
+            <li>Fb</li>
+            <li>></li>
+          </ul>
           <ul class="list__horizontal--languages">
+            <?php $test = array('left-bottom', 'left-top', 'right-bottom', 'right-top') ?>
+            <?php $index = 0 ?>
             <?php foreach(c::get('lang.available') as $lang): ?>
             <li<?php if($lang == c::get('lang.current')) echo ' class="active"' ?>>
-              <a href="<?php echo $page->url($lang) ?>"><?php echo $lang ?></a>
+              <a href="<?php echo $page->url($lang) ?>">
+                <div class="<?php echo $test[$index] ?>"><?php echo $lang ?></div>
+              </a>
             </li>
+            <?php $index++ ?>
             <?php endforeach ?>
-          </ul>
-        </div>
-        <div class="r-container">
-          <ul class="list__horizontal">
-            <li>Fb</li>
-            <li></li>
           </ul>
         </div>
       </div>
