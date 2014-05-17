@@ -567,7 +567,7 @@ h3 {
   margin: 0;
   padding: 0; }
   .list__horizontal li, .list__horizontal--menu li, .list__horizontal--languages li, .list__horizontal--social li {
-    display: inline;
+    display: inline-block;
     display: inline-flex; }
 
 .list__horizontal--menu li {
