@@ -638,7 +638,7 @@ h3 {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 65.88078%; }
+  width: 72.70463%; }
   .members__row .column-left:last-child {
     margin-right: 0; }
 
@@ -646,12 +646,14 @@ h3 {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%; }
+  width: 24.93772%; }
   .members__row .column-right:last-child {
     margin-right: 0; }
 
 .logo {
   text-align: right; }
+  .logo img {
+    width: 255px; }
 
 .news__row {
   margin-bottom: 1em;
