@@ -44,8 +44,14 @@
       <div class="footer">
         <div class="container">
           <ul class="list__horizontal--social">
-            <li>Fb</li>
-            <li>></li>
+            <li>
+            <a href="<?php echo $site->facebook() ?>">
+                <img src="/assets/images/fb.png" style="width: 22px;" />
+              </a>
+              <a href="<?php echo $site->soundcloud() ?>">
+                <img src="/assets/images/play.png" style="width: 19px;" />
+              </a>
+            </li>
           </ul>
           <ul class="list__horizontal--languages">
             <?php $test = array('left-bottom', 'left-top', 'right-bottom', 'right-top') ?>
