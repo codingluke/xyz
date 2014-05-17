@@ -402,10 +402,10 @@ a:hover {
     display: table; }
   .pageWrap:after {
     clear: both; }
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 680px) {
     .pageWrap {
       padding: 2.35765%; } }
-  @media screen and (min-width: 850px) {
+  @media screen and (min-width: 680px) {
     .pageWrap {
       padding: 2.35765%; } }
   @media screen and (max-width: 680px) {
@@ -541,7 +541,7 @@ h3 {
 .header__image .ico-wrap {
   right: 0;
   top: 0; }
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 680px) {
     .header__image .ico-wrap .logo_big {
       display: none; }
     .header__image .ico-wrap .logo_medium {
@@ -555,7 +555,7 @@ h3 {
       display: none; }
     .header__image .ico-wrap .logo_small {
       display: inline; } }
-  @media screen and (min-width: 850px) {
+  @media screen and (min-width: 680px) {
     .header__image .ico-wrap .logo_big {
       display: inline; }
     .header__image .ico-wrap .logo_medium {
@@ -666,7 +666,7 @@ h3 {
     margin-right: 1em;
     font-weight: 700;
     /*text-transform: uppercase;*/ }
-  @media screen and (min-width: 850px) {
+  @media screen and (min-width: 680px) {
     .news__row .column-left {
       float: left;
       display: block;
@@ -682,7 +682,7 @@ h3 {
   float: right;
   margin-left: 1em;
   display: inline; }
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 680px) {
   .news__row .column-right {
     float: left;
     display: block;
@@ -704,11 +704,11 @@ h3 {
   margin: 0;
   color: white;
   line-height: 0.8; }
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 680px) {
     .program__row a {
       width: 49.93914%;
       float: left; } }
-  @media screen and (min-width: 850px) {
+  @media screen and (min-width: 680px) {
     .program__row a {
       width: 24.98964%;
       float: left; } }
@@ -721,7 +721,7 @@ h3 {
   .program__row .ico-wrap h3 {
     line-height: 1;
     font-size: 200%; }
-  @media screen and (min-width: 850px) {
+  @media screen and (min-width: 680px) {
     .program__row .ico-wrap {
       bottom: -35px; } }
 
