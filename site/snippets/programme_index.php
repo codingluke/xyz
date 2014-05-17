@@ -7,16 +7,13 @@
     <section class="program__row">
     <?php foreach($items as $item): ?>
     <?php $img = $item->images()->find('preview.png'); ?>
-    <a href="<?php echo $item->url() ?>">
+    <a href="<?php echo ($item->active() == 'true') ? $item->url() : "#"; ?>">
         <div class="imgWrap has-overlay">
           <?php if (isset($img)) { ?>
             <img src="<?php echo thumb($img, array('width' => 300, 'height' => 300, 'crop' => true), false) ?>" />
           <?php } else { ?>
             <img src="http://placehold.it/300x300" />
           <?php } ?>
-          <div class="ico-wrap">
-          <h3><?php echo $item->title() ?></h3>
-          </div>
         </div>
       </a>
     <?php if ($index % 4 == 0) { ?>
