@@ -18,7 +18,7 @@
     </div>
     <div class="column-right">
       <div class="text">
-        <?php if (isset($img)) echo thumb($img, array('width' => 300, 'height' => 200)) ?>
+        <?php if (isset($img)) echo thumb($img, array('width' => 255, 'height' => 200)) ?>
         <?php echo markdown($item->description()) ?>
     </div>
   </section>
