@@ -1,31 +1,25 @@
 Title: viceversa
-
 ----
-
 Snippet: text_and_sideimage
-
 ----
-
 Text:
-
 _ensemble viceversa:_ Das ist eine kleine Zahl versierter KünstlerInnen, die schon seit längerer Zeit miteinander arbeiten. Motiviert durch die positive Resonanz auf mehrere spartenübergreifende Projekte schlossen sie sich am 11.12.2013 zu einem Ensemble zusammen, das auf vielen Ebenen mit den Möglichkeiten künstlerischer Interpretation und der Musikvermittlung experimentiert.
-Je nach Projektidee wird ensemble viceversa erweitert oder reduziert.
+Je nach Projektidee wird _ensemble viceversa_ erweitert oder reduziert.
 
-Das Aufspüren von Zusammenhängen (die je nachdem vertieft oder gebrochen werden kön-
-nen) ist für die Arbeit von ensemble viceversa zentral:
+Das Aufspüren von Zusammenhängen (die je nachdem vertieft oder gebrochen werden können) ist für die Arbeit von _ensemble viceversa_ zentral:
 
-- Neue Musik tritt zu klassisch-romantischen Werken in Beziehung. Stücke unterschiedlicher Stilrichtungen werden eng miteinander verwoben – oder es bleibt bei der bloßen Andeu- tung ihrer Verbindung. Immer neue Blick- oder Hör-„Richtungen“ schärfen die Wahrneh- mun.
+- Neue Musik tritt zu klassisch-romantischen Werken in Beziehung. Stücke unterschiedlicher Stilrichtungen werden eng miteinander verwoben - oder es bleibt bei der bloßen Andeutung ihrer Verbindung. Immer neue Blick- oder Hör-„Richtungen“ schärfen die Wahrnehmung.
 
-- ensemble viceversa arbeitet mit bekannten Schweizer Komponisten zusammen. Bei der Vergabe von Kompositionsaufträgen werden auch junge KomponistInnen berücksichtigt.
+- _ensemble viceversa_ arbeitet mit bekannten Schweizer Komponisten zusammen. Bei der Vergabe von Kompositionsaufträgen werden auch junge KomponistInnen berücksichtigt.
 
-- Andere Kunstrichtungen wie Sprache, bildende Kunst oder Tanz erhalten in den Projekten von ensemble viceversa einen hohen Stellenwert.
+- Andere Kunstrichtungen wie Sprache, bildende Kunst oder Tanz erhalten in den Projekten von _ensemble viceversa_ einen hohen Stellenwert.
 
 - Zentral ist die Verknüpfung von Szene und Musik: Jedem Programm liegt eine durchdachte Regie zugrunde.
 
-- In speziell dafür konzipierten Programmen wird die Kluft zwischen professionellen Kunst- schaffenden und Laien aufgehoben. Auch hier bereichern die Akteure einander gegenseitig durch ihre Unterschiedlichkeit. (Kursangebote für Profis und Laien sollen zur Vertiefung die- ses Wirkungsfelds beitragen.)
+- In speziell dafür konzipierten Programmen wird die Kluft zwischen professionellen Kunstschaffenden und Laien aufgehoben. Auch hier bereichern die Akteure einander gegenseitig durch ihre Unterschiedlichkeit. (Kursangebote für Profis und Laien sollen zur Vertiefung dießses Wirkungsfelds beitragen).
 
 - Durch das Nebeneinanderstellen, Kombinieren, Überlagern von Musik, Text und Szene und durch das Präsentieren und gleichzeitige Infragestellen von Kontrastpaaren (wie etwa „wichtig/unwichtig“, „gross/klein“, „Probe/Aufführung“, „Bühne/Zuschauerraum“ etc.) wird das Publikum immer aufs Neue angesprochen, unterhalten, zum Nachdenken angeregt und überrascht.
 
 Diese Mehrschichtigkeit soll etwas erlebbar machen, was sich am ehesten mit dem Begriff der „Innenwelt der Aussenwelt der Innenwelt“ (Peter Handke) oder auch mit der Definition „Unschärfe“ aus der Quantenphysik umschreiben lässt. 
 Ist denn alles so statisch, kausal verknüpft, berechen- und vorhersehbar?
-Für ensemble viceversa jedenfalls ist es stets eine Freude, mit Umdeutungen zu spielen und Vieles immer wieder in ein anderes Licht zu stellen.
+Für _ensemble viceversa_ jedenfalls ist es stets eine Freude, mit Umdeutungen zu spielen und Vieles immer wieder in ein anderes Licht zu stellen.
