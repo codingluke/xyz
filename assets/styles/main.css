@@ -716,6 +716,8 @@ h3 {
     .program__row a {
       width: 24.98964%;
       float: left; } }
+  .program__row a p {
+    margin-bottom: 0.5em; }
 
 .program__row .ico-wrap {
   left: 0;
@@ -756,12 +758,13 @@ h3 {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 65.88078%; }
+  width: 65.88078%;
+  /*p {*/
+  /*margin: 0;*/
+  /*padding: 0;*/
+  /*}*/ }
   .programm__detail .column-right:last-child {
     margin-right: 0; }
-  .programm__detail .column-right p {
-    margin: 0;
-    padding: 0; }
 
 .litegallery {
   /*background-position: center;*/ }
