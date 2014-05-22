@@ -17,13 +17,23 @@
   }
   $index = 1;
   $imgs = array();
-  foreach($page->images() as $img)
-    if ($img->name() != 'preview')
+  $flyer = null;
+  foreach($page->images() as $img) {
+    if ($img->name() != 'preview' && $img->name() != 'flyer')
       $imgs[] = $img;
+    if ($img->name() == 'flyer')
+      $flyer = $img;
+  }
 ?>
 
 <div class="module">
   <div class="litegallery">
+    <?php if ($flyer != null) { ?>
+      <div>
+        <img style="width: 100%" src="<?php echo thumb($flyer, array('width' => 1032), false) ?>" />
+      </div>
+    <?php } ?>
+
     <?php foreach($imgs as $img): ?>
     <?php if (in_arith_serie(1, 3, $index)) { ?>
       <div class="litegallery__row--one">
