@@ -32,13 +32,6 @@
         <?php ($page->images()->find('header.png')) ? snippet('logo_on_headerimage') : snippet('logo') ?>
 
         <?php if ($page->snippet() != '') snippet($page->snippet()) ?>
-
-        <?php //if ($page->concerts()) snippet('aktuell') ?>
-
-        <?php //snippet('programm_detail') ?>
-
-        <?php //snippet('gallery') ?>
-
       </div>
 
       <div class="footer">
@@ -46,8 +39,10 @@
           <ul class="list__horizontal--languages">
             <?php $test = array('left-bottom', 'left-top', 'right-bottom', 'right-top') ?>
             <?php $index = 0 ?>
+            <?php $arrr = explode(',', $site->languages()) ?>
             <?php foreach(c::get('lang.available') as $lang): ?>
-            <li<?php if($lang == c::get('lang.current')) echo ' class="active"' ?>>
+            <?php $classname = ($lang == c::get('lang.current')) ? 'active' : ''; ?>
+<li class="<?php echo $classname ?>" style="<?php echo (in_array($lang, $arrr)) ? '' : 'display: none;'?>">
               <a href="<?php echo $page->url($lang) ?>">
                 <div class="<?php echo $test[$index] ?>"><?php echo $lang ?></div>
               </a>

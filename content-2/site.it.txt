@@ -8,6 +8,4 @@ Keywords:
 ----
 Copyright: © (date: Year)
 ----
-facebook: https://www.facebook.com
-----
-soundcloud: http://www.soundcloud.com
+Languages: de

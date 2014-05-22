@@ -5,3 +5,5 @@ Author: Lukas Hodel
 Description: A nice little website.
 ----
 Keywords: 
+----
+Languages: de,en,fr
