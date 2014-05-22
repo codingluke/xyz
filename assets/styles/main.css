@@ -378,6 +378,9 @@ th {
 .hidden {
   display: none; }
 
+p {
+  text-align: justify; }
+
 a:link {
   color: #000000;
   text-decoration: none; }

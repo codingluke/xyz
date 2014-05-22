@@ -1,5 +1,5 @@
 <div class="module">
-  <?php $img = $page->images()->find('img1.png') ?>
+  <?php $img = $page->images()->first() ?>
   <section class="members__row">
     <div class="column-left">
       <?php echo markdown($page->text()) ?>
