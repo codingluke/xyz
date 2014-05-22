@@ -378,6 +378,11 @@ th {
 .hidden {
   display: none; }
 
+.home {
+  text-align: center; }
+  .home p {
+    text-align: center; }
+
 p {
   text-align: justify; }
 
