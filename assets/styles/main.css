@@ -383,9 +383,6 @@ th {
   .home p {
     text-align: center; }
 
-p {
-  text-align: justify; }
-
 a:link {
   color: #000000;
   text-decoration: none; }
@@ -768,8 +765,6 @@ h3 {
   width: 74.41059%; }
   .programm__detail .column-right:last-child {
     margin-right: 0; }
-  .programm__detail .column-right p {
-    text-align: justify; }
 
 .litegallery {
   /*background-position: center;*/ }

@@ -35,6 +35,7 @@
       </div>
 
       <div class="footer">
+        <div style="float: right; font-size: 90%; padding-right: 0.5em"><?php echo $site->authors() ?></div>
         <div class="container">
           <ul class="list__horizontal--languages">
             <?php $test = array('left-bottom', 'left-top', 'right-bottom', 'right-top') ?>

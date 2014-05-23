@@ -1,9 +1,9 @@
 Title: ensemble vice versa
 ----
-Author: Lukas Hodel
+Authors: Fotos: Miguela Tamo und Peter Jesse, Grafik: Anna Perinors
 ----
 Description: A nice little website.
 ----
 Keywords: 
 ----
-Languages: de,en,fr
+Languages: de
