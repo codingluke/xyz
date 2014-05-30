@@ -10,7 +10,6 @@
     <meta name="keywords" content="<?php echo html($site->keywords()) ?>" />
     <meta name="viewport" content="width=device-width">
     <meta name="robots" content="index, follow" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, target-densityDpi=device-dpi" />
 
     <link rel="shortcut icon" href="/favicon.ico">
     <?php echo css('assets/styles/main.css') ?>
