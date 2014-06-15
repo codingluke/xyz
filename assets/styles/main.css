@@ -375,6 +375,7 @@ th {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/*$grey: #231f20;*/
 .hidden {
   display: none; }
 
@@ -440,7 +441,7 @@ h3 {
       top: 0;
       left: 0;
       width: 51%;
-      background-color: #231f20; }
+      background-color: black; }
       .nav__top:last-child {
         margin-right: 0; }
       .nav__top a:link {
@@ -458,7 +459,7 @@ h3 {
         font-size: 110%;
         line-height: 1.5em; }
       .nav__top .list__horizontal--menu a.active {
-        color: #231f20;
+        color: black;
         background-color: white; } }
 
 .top__nav__button {
@@ -517,7 +518,6 @@ h3 {
     margin-left: 51.17883%; } }
 
 .imgWrap {
-  /*margin-bottom: 1em;*/
   text-align: right; }
   .imgWrap img {
     width: 100%;
@@ -525,7 +525,7 @@ h3 {
 
 .footer .container {
   text-transform: uppercase;
-  background-color: #231f20;
+  background-color: black;
   padding: 0; }
 
 .footer .authors {
@@ -590,7 +590,7 @@ h3 {
   font-weight: 400; }
 .list__horizontal--menu a.active {
   color: white;
-  background-color: #231f20; }
+  background-color: black; }
 
 .list__horizontal--languages li {
   padding-right: 1em;
@@ -830,7 +830,7 @@ body {
   font-size: 100%; }
   @media screen and (max-width: 680px) {
     body {
-      background-color: #231f20; } }
+      background-color: black; } }
 
 .browsehappy {
   margin: 0.2em 0;
