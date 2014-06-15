@@ -8,7 +8,7 @@
     <title><?php echo html($site->title()) ?> - <?php echo html($page->title()) ?></title>
     <meta name="description" content="<?php echo html($site->description()) ?>" />
     <meta name="keywords" content="<?php echo html($site->keywords()) ?>" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, target-densityDpi=device-dpi">
     <meta name="robots" content="index, follow" />
 
     <link rel="shortcut icon" href="/favicon.ico">
