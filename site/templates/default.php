@@ -13,6 +13,7 @@
 
     <link rel="shortcut icon" href="/favicon.ico">
     <?php echo css('assets/styles/main.css') ?>
+    <?php echo css('assets/styles/slider.css') ?>
 
   </head>
   <body>
@@ -56,6 +57,7 @@
     </section>
 
     <?php echo js('assets/javascript/jquery.min.js') ?>
+    <?php echo js('assets/javascript/slider.js') ?>
     <?php echo js('assets/javascript/main.js') ?>
   </body>
 </html>
