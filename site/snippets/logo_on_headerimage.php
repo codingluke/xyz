@@ -1,5 +1,3 @@
-<?php $header_img = $page->images()->find('header.png') ?>
-
 <div class="module">
   <div class="header__image">
     <div class="imgWrap has-overlay">
@@ -14,7 +12,6 @@
         </ul>
       </div>
 
-      <?php //echo thumb($header_img, array('width' => 900, 'height' => 300)) ?>
       <div class="ico-wrap">
         <img src="/assets/images/logo_with_corner.png" class="logo_big" />
         <img src="/assets/images/logo_with_corner_medium.png" class="logo_medium" />
