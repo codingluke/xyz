@@ -24,7 +24,7 @@
       <?php echo markdown($resonanz->description()) ?>
       <?php foreach($imgs as $img): ?>
       <p>
-      <img style="max-width: 70%" src="<?php echo $img->url(); ?>" alt="<?php echo $img->name() ?>" />
+      <img style="max-width: 70%" src="<?php echo thumb($img, array('width' => $img->width()), false) ?>" alt="<?php echo $img->name() ?>" />
       </p>
       <?php endforeach ?>
     </div>
