@@ -37,7 +37,7 @@
 
       <div class="footer">
         <div class="container">
-        <a href="<?php echo $site->videolink() ?>" target="_blank" class="video-button"><img src="/assets/images/play.png" alt="videos" /></a>
+          <a href="<?php echo $site->videolink() ?>" target="_blank" class="video-button"></a>
           <ul class="list__horizontal--languages">
             <?php $test = array('left-bottom', 'left-top', 'right-bottom', 'right-top') ?>
             <?php $index = 0 ?>
