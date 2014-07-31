@@ -379,6 +379,12 @@ th {
 .hidden {
   display: none; }
 
+.video-button {
+  float: right;
+  overflow: hidden; }
+  .video-button img {
+    width: 18px; }
+
 .home {
   text-align: center; }
   .home p {

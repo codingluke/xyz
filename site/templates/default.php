@@ -37,13 +37,14 @@
 
       <div class="footer">
         <div class="container">
+        <a href="<?php echo $site->videolink() ?>" target="_blank" class="video-button"><img src="/assets/images/play.png" alt="videos" /></a>
           <ul class="list__horizontal--languages">
             <?php $test = array('left-bottom', 'left-top', 'right-bottom', 'right-top') ?>
             <?php $index = 0 ?>
             <?php $arrr = explode(',', $site->languages()) ?>
             <?php foreach(c::get('lang.available') as $lang): ?>
             <?php $classname = ($lang == c::get('lang.current')) ? 'active' : ''; ?>
-<li class="<?php echo $classname ?>" style="<?php echo (in_array($lang, $arrr)) ? '' : 'display: none;'?>">
+            <li class="<?php echo $classname ?>" style="<?php echo (in_array($lang, $arrr)) ? '' : 'display: none;'?>">
               <a href="<?php echo $page->url($lang) ?>">
                 <div class="<?php echo $test[$index] ?>"><?php echo $lang ?></div>
               </a>
