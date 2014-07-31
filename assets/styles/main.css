@@ -665,6 +665,21 @@ h3 {
   .members__row .column-right:last-child {
     margin-right: 0; }
 
+.resonanz__row {
+  margin-bottom: 1em;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #000; }
+
+.resonanz__row strong {
+  font-weight: 900;
+  font-size: 125%; }
+
+.resonanz__row .image-right {
+  width: 24.93772%;
+  float: right;
+  margin-left: 1em; }
+
 .logo {
   text-align: right; }
   .logo img {

@@ -30,14 +30,14 @@
   <div class="litegallery">
     <?php if ($flyer != null) { ?>
       <div>
-        <img style="width: 100%" src="<?php echo thumb($flyer, array('width' => 1032), false) ?>" />
+        <img alt="flyer" style="width: 100%" src="<?php echo thumb($flyer, array('width' => 1032), false) ?>" />
       </div>
     <?php } ?>
 
     <?php foreach($imgs as $img): ?>
     <?php if (in_arith_serie(1, 3, $index)) { ?>
       <div class="litegallery__row--one">
-        <img class="litegallery__img1" src="<?php echo thumb($img, array('width' => 1032, 'height' => 500, 'crop' => true), false) ?>" />
+        <img alt="<?php echo $img->name() ?>" class="litegallery__img1" src="<?php echo thumb($img, array('width' => 1032, 'height' => 500, 'crop' => true), false) ?>" />
       </div>
     <?php } elseif (in_arith_serie(2, 3, $index)) { ?>
     <?php
@@ -45,12 +45,12 @@
       $img_size = ($index % 2 == 0) ? 590 : 414;
     ?>
     <div class="litegallery__row--two-<?php echo $type ?>">
-        <img class="litegallery__img1" src="<?php echo thumb($img, array('width' => $img_size, 'height' => 393, 'crop' => true), false) ?>" />
+        <img class="litegallery__img1" alt="<?php echo $img->name() ?>" src="<?php echo thumb($img, array('width' => $img_size, 'height' => 393, 'crop' => true), false) ?>" />
     <?php } elseif (in_arith_serie(3, 3, $index)) { ?>
     <?php
       $img_size = ($index % 2 == 0) ? 590 : 414;
     ?>
-        <img class="litegallery__img2" src="<?php echo thumb($img, array('width' => $img_size, 'height' => 393, 'crop' => true), false) ?>" />
+        <img class="litegallery__img2" alt="<?php echo $img->name() ?>" src="<?php echo thumb($img, array('width' => $img_size, 'height' => 393, 'crop' => true), false) ?>" />
       </div>
     <?php } $index++ ?>
     <?php endforeach ?>

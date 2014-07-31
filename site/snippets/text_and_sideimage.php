@@ -1,14 +1,14 @@
 <div class="module">
   <?php $img = $page->images()->first() ?>
-  <section class="members__row">
+  <div class="members__row">
     <div class="column-left">
       <?php echo markdown($page->text()) ?>
     </div>
     <div class="column-right">
       <p>
-        <img src="<?php if (isset($img)) echo thumb($img, array('width' => 300), false) ?>" />
+        <img alt="<?php echo $img->name(); ?>" src="<?php if (isset($img)) echo thumb($img, array('width' => 300), false) ?>" />
       </p>
     </div>
-  </section>
+  </div>
   <?php unset($img) ?>
 </div>

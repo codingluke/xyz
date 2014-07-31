@@ -1,6 +1,7 @@
 .swipe-container {
   width: 100%;
   overflow: hidden;
+  position: relative;
 }
 
 .swipe-list:after,
@@ -31,6 +32,32 @@
 .swipe-item img {
   width: 100%;
   height: auto;
+}
+
+.fotogalerie-swipe-item img {
+  width: auto;
+  max-width: 100%;
+}
+
+.fotogalerie {
+  margin-top: 1em;
+}
+
+.swipe-prev {
+  position: absolute;
+  z-index: 100;
+  content: "";
+  bottom: 50%;
+  cursor: pointer;
+  left: 0;
+}
+
+.swipe-next {
+  position: absolute;
+  z-index: 100;
+  bottom: 50%;
+  cursor: pointer;
+  right: 0;
 }
 
 .swipe-container.touchmoving img,

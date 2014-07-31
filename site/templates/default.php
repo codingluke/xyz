@@ -21,7 +21,7 @@
      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <section class="pageWrap">
+    <div class="pageWrap">
       <?php snippet('menu') ?>
 
       <div class="pageContent">
@@ -54,7 +54,7 @@
         </div>
         <div class="authors"><?php echo $site->authors() ?></div>
       </div>
-    </section>
+    </div>
 
     <?php echo js('assets/javascript/jquery.min.js') ?>
     <?php echo js('assets/javascript/slider.js') ?>
