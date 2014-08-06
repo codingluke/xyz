@@ -452,7 +452,8 @@ h3 {
       .nav__top:last-child {
         margin-right: 0; }
       .nav__top a:link {
-        color: white; }
+        color: white;
+        overflow: hidden; }
       .nav__top a:active {
         color: white; }
       .nav__top a:visited {
