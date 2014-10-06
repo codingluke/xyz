@@ -21,7 +21,7 @@ http://getkirby.com/license
 
 */
 
-c::set('license', '');
+c::set('license', 'aa551dbd57fe4876bdcb2c7530f75b55');
 
 
 /*
@@ -260,7 +260,7 @@ c::set('cache.ignore', array('search', 'some/other/uri/to/ignore'));
 
 */
 
-c::set('cache', false);
+c::set('cache', true);
 c::set('cache.autoupdate', true);
 c::set('cache.data', true);
 c::set('cache.html', true);
