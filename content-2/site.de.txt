@@ -2,10 +2,10 @@ Title: ensemble viceversa
 ----
 Authors: Fotos: Miguela Tamo und Peter Jesse, Grafik: Anna Perino
 ----
-Description: A nice little website.
+Description: website des ensemble vice-versa, mit Beschreibung der Programme und Fotos
 ----
-Keywords:
+Keywords: Musik, Szenische Programme, ensemble Basel
 ----
-Languages: de
+Languages: de, en, fr
 ----
 Videolink: http://youtu.be/lTcPeZJ4rMY?list=PL7iOiA07pmv_63ac4OUfVncfCgORSR5Mm

@@ -1,6 +1,6 @@
 <?php $concerts = yaml($page->concerts()) ?>
 <?php $root = $pages->findOpen() ?>
-<?php $items = $root->children() ?>
+<?php $items = $root->children()->visible() ?>
 
 <div class="module">
   <?php foreach($items as $item): ?>

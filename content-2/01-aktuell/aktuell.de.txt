@@ -1,5 +1,0 @@
-Title: aktuell
-
-----
-
-Snippet: aktuell_index

@@ -1,5 +1,5 @@
 <?php $root = $pages->findOpen() ?>
-<?php $items = $root->children() ?>
+<?php $items = $root->children()->visible() ?>
 <?php $index = 1; ?>
 
 <div class="module">
