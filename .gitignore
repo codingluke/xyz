@@ -1,6 +1,7 @@
 .DS_Store
 panel/
 site/panel
+site/cache
 docs
 thumbs/
 content/
