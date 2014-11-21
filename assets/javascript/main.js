@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  
+
   // Slider
   $("#nav_button").click(function () {
     $pageWrap = $('.pageWrap');
@@ -29,4 +29,19 @@ $(document).ready(function() {
       insta.swiper.prev();
     }
   });
+
+  // Random color for welcome site
+  function getRandom(max, min) {
+    var rand;
+    do {
+      rand = Math.random();
+    } while(rand == 1.0);
+    return min + parseInt(rand * (max - min + 1));
+  }
+  colors = [
+    "#eb9200", "#8b18a0", "#2e5e9a", "#cf5000",
+    "#c70089", "#470099", "#99005c"
+  ];
+  $('.home div').css('color', colors[getRandom(0,6)]);
+
 });
